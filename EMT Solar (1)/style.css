@@ -1,0 +1,148 @@
+*{
+    font-family: Verdana;
+
+}
+.header {
+    min-width: 100%;
+    min-height:100vh;
+    text-align: center;
+}
+.video{
+    width:100%;
+    height:100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+
+}
+.overlay{
+    background:rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 0;
+
+    
+}
+
+
+.nav-content{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.nav-content div {
+    overflow: hidden;
+    margin: auto;
+    z-index: 1;
+    
+    
+
+    
+}
+
+.nav-content div img{
+    margin-bottom:5%;
+    margin-top: 25vh;
+}
+
+.nav-content div ul li{
+    display: inline-block;
+    align-content: center;
+    font-family: Verdana;
+    font-size:20px;
+    
+
+
+
+
+}
+.nav-content div ul li a{
+    color:black;
+    text-decoration: none;
+    position: relative;
+    margin: 4px;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 20px;
+
+}
+.nav-content div ul li a:hover {
+    background-color: #FAB905;
+}
+
+
+
+
+
+
+#login a{
+    color:white;
+    background-color: rgba(0, 68, 145, 0.4);
+    border-radius: 25%;
+}
+#login :hover{
+    border-radius: 25%;
+    color: #FAB905;
+}
+#spacer{
+    margin-bottom: 25vh;
+
+}
+#onama {
+    margin:auto;
+    width: 90%;
+    background-color: rgba(10, 138, 242, 0.6);
+}
+#onama h1{
+    text-align: center;
+}
+#info-onama{
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+
+.container{
+    margin:auto;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+
+}
+.customer-logos{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.loginbox{
+    width: 320px;
+    height: 400px;
+}
+#vise{
+    display: compact;
+}
+
+
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color:#EDEEE9;
+}
+.inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    color: white;
+
+}
+.logo-footer{
+    float: left;
+    width: 35%;
+}
